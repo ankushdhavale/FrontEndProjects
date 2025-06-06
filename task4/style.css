@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    grid-column: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.box1{
+    width: 16rem;
+    height: 16rem;
+    background-color: red;
+    transition: background-color 2s ease;
+}
+.box1:hover{
+    background-color: green;
+}
+
+.box2{
+    width: 16rem;
+    height: 16rem;
+    background-color: red;
+    text-align: center;
+    padding-top: 9rem;
+    font-size: larger;  
+    transition: all 2s ease;
+}
+
+.box2:hover{
+    background: linear-gradient(to top, red,black,orange,white);
+    border-radius: 50%;
+    color: azure;
+}
+
+.box3>img{
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid red ;
+    background-color: aliceblue;
+}
+
+.box3{
+    width: 16rem;
+    height: 16rem;
+    background-color: grey;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    border-radius: 4px;
+    transition: filter 2s ease;
+}
+
+.box3:hover{
+    filter: blur(5px);
+}
+
+.box4{
+    width: 16rem;
+    height: 16rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4>div{
+    width: 14rem;
+    height: 14rem;
+    background:linear-gradient(red,yellow,green,blue,black);
+    transition: all 2s ease;
+}
+.box4>div:hover{
+    width: 10rem;
+    height: 10rem;
+    transform: rotateZ(50deg);
+    background: conic-gradient(red,yellow,green,blue,black);
+}
+.box5{
+    width: 20rem;
+    height: 8rem;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.childBox5{
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top: 2rem;  
+}
+h5{
+    opacity: 0;
+    transition: opacity 4s ease;
+}
+h5:hover{
+    opacity: 1;
+}
