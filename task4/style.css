@@ -102,3 +102,9 @@ h5{
 h5:hover{
     opacity: 1;
 }
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 1px 1px blue;
+    color: white;
+}
